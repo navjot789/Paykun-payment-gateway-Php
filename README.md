@@ -16,7 +16,7 @@ Note: For testing purpose $isLive => false by default. You can change it by navi
 public function __construct($mid, $accessToken, $encKey, $isLive = false, $isCustomTemplate = false, $isWebView=true)
 ````
 
-To get the Test MID, API-TOKEN, API-SECRET goto [Paykun/register](https://dashboard.paykun.com/register) and then paste it under src/secret.php
+To get the Test MID, API-TOKEN, API-SECRET goto [Paykun/register](https://dashboard.paykun.com/register) under sandbox mode and then paste it under src/secret.php
 ````PHP
 /**
  *  Parameters requires to initialize an object of Payment are as follow.
@@ -28,4 +28,8 @@ To get the Test MID, API-TOKEN, API-SECRET goto [Paykun/register](https://dashbo
  */
 $obj = new \Paykun\Checkout\Payment('YOUR-MID-HERE', 'API-TOKEN', 'API-SECRET', false, true);
 ````
+# Video guide
+
+
+# want to follow or contact?
 
