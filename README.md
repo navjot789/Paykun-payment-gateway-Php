@@ -33,7 +33,7 @@ $obj = new \Paykun\Checkout\Payment('YOUR-MID-HERE', 'API-TOKEN', 'API-SECRET', 
 
 # Want to follow or contact?
 1. [Instagram](https://www.instagram.com/code_lone/)
-2. [Instagram](https://www.youtube.com/channel/UCVlSbZdK_7tTF_X91gpD48g)
+2. [Youtube](https://www.youtube.com/channel/UCVlSbZdK_7tTF_X91gpD48g)
 
 
 
