@@ -31,5 +31,7 @@ $obj = new \Paykun\Checkout\Payment('YOUR-MID-HERE', 'API-TOKEN', 'API-SECRET', 
 # Video guide
 
 
-# want to follow or contact?
+# Want to follow or contact?
+[Instagram](https://www.instagram.com/code_lone/)
+
 
