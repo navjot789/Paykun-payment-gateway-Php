@@ -4,10 +4,10 @@ PayKun is an India based payment gateway that provides a hassle-free payment sol
 # Installation
 Change the database setting by navigating to dbcontroller.php
 ````PHP
-        private $host     = "localhost";
-	private $user     = "username";
-	private $password = "password";
-	private $database = "database";
+private $host     = "localhost";
+private $user     = "username";
+private $password = "password";
+private $database = "database";
 ````
 
 # Adding TEST API KEY and MID
@@ -16,7 +16,7 @@ Note: For testing purpose $isLive => false by default. You can change it by navi
 public function __construct($mid, $accessToken, $encKey, $isLive = false, $isCustomTemplate = false, $isWebView=true)
 ````
 
-To get the Test MID, API-TOKEN, API-SECRET goto Paykun and paste it under src/secret.php
+To get the Test MID, API-TOKEN, API-SECRET goto [Paykun/register](https://dashboard.paykun.com/register) and then paste it under src/secret.php
 ````PHP
 /**
  *  Parameters requires to initialize an object of Payment are as follow.
