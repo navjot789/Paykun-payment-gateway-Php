@@ -11,11 +11,12 @@ Change the database setting by navigating to dbcontroller.php
 ````
 
 # Adding TEST API KEY and MID
-Note: For testing purpose isLive => false by default. You can change it by navigating to src/Payment.php on line 60
+Note: For testing purpose $isLive => false by default. You can change it by navigating to src/Payment.php on line 60
 ````PHP
 public function __construct($mid, $accessToken, $encKey, $isLive = false, $isCustomTemplate = false, $isWebView=true)
 ````
 
+To get the Test MID, API-TOKEN, API-SECRET goto Paykun
 ````PHP
 /**
  *  Parameters requires to initialize an object of Payment are as follow.
@@ -27,4 +28,4 @@ public function __construct($mid, $accessToken, $encKey, $isLive = false, $isCus
  */
 $obj = new \Paykun\Checkout\Payment('YOUR-MID-HERE', 'API-TOKEN', 'API-SECRET', false, true);
 ````
-To get the Test 
+
