@@ -16,7 +16,7 @@ Note: For testing purpose $isLive => false by default. You can change it by navi
 public function __construct($mid, $accessToken, $encKey, $isLive = false, $isCustomTemplate = false, $isWebView=true)
 ````
 
-To get the Test MID, API-TOKEN, API-SECRET goto Paykun
+To get the Test MID, API-TOKEN, API-SECRET goto Paykun and paste it under src/secret.php
 ````PHP
 /**
  *  Parameters requires to initialize an object of Payment are as follow.
